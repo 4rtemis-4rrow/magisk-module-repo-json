@@ -15,7 +15,7 @@ meta = {
 }
 
 # Initialize the GitHub objects
-g = Github('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')
+g = Github(input("enter your token:\n"))
 user = g.get_user(REPO_NAME)
 repos = user.get_repos()
 
